@@ -7,3 +7,20 @@ font-family: sans-serif;
 
 }
 
+body {
+
+min-height: 100vh;
+background-color: black;
+display: grid;
+place-items: center;
+
+}
+
+.calculadora {
+
+background-color: darkgrey;
+color:white;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+
+}
