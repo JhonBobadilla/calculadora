@@ -35,7 +35,7 @@ gap: .5rem;
 
 grid-column: 1 / 5;
 text-align: right;
-background: #ffff; 
+background: #a79c9c; 
 border-style: solid;
 border-color: rgb(0, 0, 0);
 border-radius: 10px;
@@ -61,3 +61,31 @@ justify-content: center;
 align-items: center;
 
 }
+
+.btn:hover {
+
+background: #ffffff;
+color: #000000;
+
+}
+
+#igual {
+
+grid-row: span 2;
+background: #a79c9c;
+color: #000000;
+
+}
+
+#igual:hover {
+
+background: #ffffff;
+color: #a79c9c;
+
+}
+
+#cero {
+
+    grid-column: span 2;
+    
+    }
